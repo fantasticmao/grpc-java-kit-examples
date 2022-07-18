@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "helloworld"
+
+grpc-kit:
+  grpc:
+    server:
+      port: 50051
+  nameResolver:
+    registry: "dns://localhost"
