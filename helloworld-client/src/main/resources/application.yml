@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "helloworld_client"
+
+grpc-kit:
+  grpc:
+    client:
+      timeout: 1000
+  name-resolver:
+    registry: "static://localhost?helloworld_server=127.0.0.1:50051"

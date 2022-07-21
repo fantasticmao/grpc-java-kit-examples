@@ -1,10 +1,10 @@
 spring:
   application:
-    name: "helloworld"
+    name: "helloworld_server"
 
 grpc-kit:
   grpc:
     server:
       port: 50051
-  nameResolver:
-    registry: "dns://localhost"
+  name-resolver:
+    registry: "static://localhost"
