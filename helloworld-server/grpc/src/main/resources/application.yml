@@ -3,8 +3,7 @@ spring:
     name: "helloworld_server"
 
 grpc-kit:
-  grpc:
-    server:
-      port: 50051
+  server:
+    port: 50052
   name-resolver:
     registry: "static://localhost"
