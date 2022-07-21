@@ -29,7 +29,7 @@ public class Server {
 
         @Override
         public void sayHello(HelloRequest req, StreamObserver<HelloReply> responseObserver) {
-            LOGGER.info("receive a new message, name: {}", req.getName());
+            LOGGER.info("Server receive a new message, name: {}", req.getName());
             HelloReply reply = HelloReply.newBuilder()
                 .setMessage("Hello " + req.getName())
                 .build();

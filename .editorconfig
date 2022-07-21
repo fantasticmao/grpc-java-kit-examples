@@ -15,7 +15,7 @@ indent_size = 4
 [*.proto]
 indent_size = 2
 
-[*.json]
+[*.sh]
 indent_size = 2
 
 [{*.yml, *.yaml}]
